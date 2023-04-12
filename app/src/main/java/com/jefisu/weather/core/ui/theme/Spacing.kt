@@ -1,4 +1,4 @@
-package com.jefisu.weather.ui.theme
+package com.jefisu.weather.core.ui.theme
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable

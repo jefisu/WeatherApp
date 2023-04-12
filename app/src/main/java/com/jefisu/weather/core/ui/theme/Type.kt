@@ -1,10 +1,11 @@
-package com.jefisu.weather.ui.theme
+package com.jefisu.weather.core.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 import com.jefisu.weather.R
 
 private val PoppinsFontFamily = FontFamily(
@@ -29,5 +30,11 @@ private val PoppinsFontFamily = FontFamily(
 )
 
 val Typography = Typography(
-    defaultFontFamily = PoppinsFontFamily
+    defaultFontFamily = PoppinsFontFamily,
+    body1 = Typography().body1.copy(
+        lineHeight = 26.sp
+    ),
+    subtitle1 = Typography().body1.copy(
+        lineHeight = 26.sp
+    )
 )
